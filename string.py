@@ -1,0 +1,16 @@
+message="learning python for data engineering"
+
+print("char at 5 position:",message[5])
+print("print from 9 char to full:",message[9:])
+print(" print till 9 char:",message[:9])
+print(message[9:15])
+print("last 5 char:",message[-5:])
+print("from 5th to -3 char:",message[5:-3])
+print("till -3 char:",message[:-3])
+print("reversal:",message[::-1])
+print(message.count("in"))
+print(message.upper())
+print("find 'in' position:",message.find("in"))
+print("find 'in' position from 9th position:", message.find("in",9))
+print("find 'in' postion between 29 and 35:",message.find("arn",0,8))
+print("find 'in' position:",message.split("in"))
